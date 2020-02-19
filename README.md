@@ -25,7 +25,8 @@ t.update(formula2)
 render(t)
 ```
 ![tree2mod](https://raw.githubusercontent.com/bcopp/delta-cache/master/tree2mod.png)
-The tree structure caches on its partially evaluated branches. It is intelligent enough to save those caches which persist after and update and wipe those which do not. (Persistant circled in Red) 
+
+The tree structure caches on its partially evaluated branches and is intelligent enough to save those caches which persist and wipe those which do not. (Persistant circled in Red) 
 
 ## How it works
 
